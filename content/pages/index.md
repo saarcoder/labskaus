@@ -11,7 +11,6 @@ sections:
       - label: Subscribe to Podcast
         url: /thank-you
         style: primary
-    image: /images/huepfer.jpg
     image_alt: Hero section placeholder image
     media_position: left
     media_width: fifty
