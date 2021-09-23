@@ -3,7 +3,7 @@ title: Home
 sections:
   - type: hero_section
     title: Welcome to LABSKAUS
-    subtitle: Für Dich. For you. Till dig. Aan u. Pour vous.
+    subtitle: Für Dich. For you. Till dig. Aan u. Para ti. Pour vous.
     content: >-
       A podcast for Web developers interested in building Jamstack websites.
       Hosted by Miles Tone.
