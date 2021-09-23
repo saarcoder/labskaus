@@ -33,7 +33,8 @@
                 "url": "/subscribe",
                 "style": "primary"
             }
-        ]
+        ],
+        "title": "L"
     },
     "footer": {
         "logo": "images/logo.svg",
