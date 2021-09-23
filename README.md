@@ -1,4 +1,4 @@
-# ✨ latino-landia ✨
+# ✨ labskaus ✨
 
 <img src="/images/labskaus-demo-1024x568.png" width="600">
 
