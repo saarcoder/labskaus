@@ -23,6 +23,7 @@ sections:
     background_image_size: cover
     background_image_opacity: 50
     has_border: true
+    image: /images/hopper.png
   - type: blog_feed_section
     title: Latest Episodes
     blog_feed_cols: three
