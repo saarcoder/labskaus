@@ -20,7 +20,7 @@ sections:
     background_color: secondary
     background_image: /images/blue-shpere.png
     background_image_repeat: no-repeat
-    background_image_size: contain
+    background_image_size: cover
     background_image_opacity: 50
     has_border: true
     image: /images/huepfer.png
