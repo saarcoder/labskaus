@@ -7,7 +7,7 @@ sections:
       For you. Pour vous. Für Dich. Till dig. Tobie. Aan u. Para ti. A te. Σε
       εσένα.
     content: >-
-      A podcast for Web developers interested in building Jamstack websites.
+      Ein Podcast for Web developers interested in building Jamstack websites.
       Hosted by Miles Tone.
     actions:
       - label: Podcast abonnieren
