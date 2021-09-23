@@ -41,7 +41,7 @@ Mit Stackbit lassen sich verschiedene [Vorlagen](https://app.stackbit.com/create
 
 3. Zur Weiterentwicklung das erzeugte GitHub-Repository klonen.
 
-4. Abhängigkeiten installieren
+4. Abhängigkeiten installieren:
 
        npm install
        
@@ -49,7 +49,7 @@ Mit Stackbit lassen sich verschiedene [Vorlagen](https://app.stackbit.com/create
 
         npm run develop
 
-5. Im Browser [http://localhost:3000/](http://localhost:3000/) öffnen, um die Entwicklungs-Seite zu sehen. Seite in einem Code-Editor bearbeiten, der Browser aktualisiert die Seite automatisch. 🎉
+5. Im Browser die Adresse [http://localhost:3000/](http://localhost:3000/) öffnen, um die Entwicklungs-Seite zu sehen. Seite in einem Code-Editor bearbeiten, der Browser aktualisiert die Seite automatisch. 🎉
 
 
 ## Veröffentlichen 🏗
