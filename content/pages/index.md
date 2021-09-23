@@ -7,7 +7,7 @@ sections:
       For you. Pour vous. Für Dich. Till dig. Tobie. Aan u. Para ti. A te. Σε
       εσένα.
     content: >-
-      Ein Podcast für .
+      Ein Podcast für Dich.
       Hosted by Miles Tone.
     actions:
       - label: Podcast abonnieren
