@@ -4,7 +4,7 @@ sections:
   - type: hero_section
     title: Welcome to LABSKAUS
     subtitle: >-
-      And for you. Ou pour toi. För dig också. I oczywiście dla ciebie. Aan u. Para ti. A te. Σε
+      And for you. Ou pour toi. För dig också. I oczywiście dla ciebie. en fo u. Para ti. A te. Σε
       εσένα.
     content: >-
       Ein Podcast für Dich.
