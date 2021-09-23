@@ -4,10 +4,9 @@ sections:
   - type: hero_section
     title: Welcome to LABSKAUS
     subtitle: >-
-      For you. Ou pour toi. För dig också. I oczywiście dla ciebie. En voor u. Y para tí. E certo anche per te. Ναι και για σένα.
-    content: >-
-      Ein Podcast für Dich.
-      Gehosted von Euch.
+      This is for you. Ou pour toi. För dig också. I oczywiście dla ciebie. En
+      voor u. Y para tí. E certo anche per te. Ναι και για σένα.
+    content: Ein Podcast für Dich. Gehosted von Euch.
     actions:
       - label: Podcast abonnieren
         url: /thank-you
