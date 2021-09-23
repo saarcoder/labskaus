@@ -21,7 +21,7 @@ sections:
     background_image: /images/blue-shpere.png
     background_image_repeat: no-repeat
     background_image_size: cover
-    background_image_opacity: 20
+    background_image_opacity: 60
     has_border: true
     image: /images/huepfer.png
   - type: blog_feed_section
