@@ -10,7 +10,7 @@ sections:
       A podcast for Web developers interested in building Jamstack websites.
       Hosted by Miles Tone.
     actions:
-      - label: Podcast
+      - label: Podcast abonnieren
         url: /thank-you
         style: primary
     image_alt: Hero section placeholder image
