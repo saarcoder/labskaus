@@ -3,7 +3,7 @@ title: Home
 sections:
   - type: hero_section
     title: Welcome to LABSKAUS
-    subtitle: Optional hero section subtitle
+    subtitle: Für Dich. For you.
     content: >-
       A podcast for Web developers interested in building Jamstack websites.
       Hosted by Miles Tone.
