@@ -46,7 +46,7 @@ sections:
     background_image_size: auto
     background_image_opacity: 98
   - type: grid_section
-    title: Subscribe
+    title: Abonnieren
     grid_items:
       - title: Apple Podcasts
         title_align: center
