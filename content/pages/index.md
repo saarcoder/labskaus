@@ -4,7 +4,7 @@ sections:
   - type: hero_section
     title: Welcome to LABSKAUS
     subtitle: >-
-      And for you. Pour vous. Till dig. Tobie. Aan u. Para ti. A te. Σε
+      And for you. Ou pour vous. Till dig. Tobie. Aan u. Para ti. A te. Σε
       εσένα.
     content: >-
       Ein Podcast für Dich.
