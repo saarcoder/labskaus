@@ -2,7 +2,7 @@
 
 <img src="/public/images/labskaus-demo-1024x559.png" width="600">
 
-[Jekyll](https://jekyllrb.com)-Seite mit Git als [CMS](https://en.wikipedia.org/wiki/Content_management_system). Seiten-Editor: [Stackbit](https://www.stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes). Build-Zeit: unter einer Minute.
+[Next.js](https://nextjs.org/)-Seite mit Git als [CMS](https://en.wikipedia.org/wiki/Content_management_system). Seiten-Editor: [Stackbit](https://www.stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes). Vorlage: Podcast, Build-Zeit: unter einer Minute.
 
 Mit Stackbit lassen sich verschiedene [Vorlagen](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) wie diese benutzen. Wie wäre es mit einer anderen?
 
@@ -35,31 +35,35 @@ Mit Stackbit lassen sich verschiedene [Vorlagen](https://app.stackbit.com/create
 
 ## Lokal entwickeln
 
-1.  Installiere eine vollständige [Ruby-Entwicklungsumgebung](https://jekyllrb.com/docs/installation/)
+1. [Nach dieser Vorlage](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/podcaster-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) aus Stackbit heraus eine Seite erzeugen.
 
-1.  Installiere Jekyll und Bundler:
+2. Danach in Stackbit Studio den Inhalt direkt auf der Seite editieren und neue Versionen veröffentlichen.
 
-        gem install jekyll bundler
+3. Zur Weiterentwicklung das erzeugte GitHub-Repository klonen.
 
-1.  Installiere Abhängigkeiten aus dem Gemfile:
+4. Abhängigkeiten installieren
 
-        bundle install
+       npm install
+       
+4. Einen lokalen Next.js Entwicklungs-Server starten:
 
-1.  Erzeuge Deine Seite and starte einen lokalen Jekyll-Entwicklungs-Server
+        npm run develop
 
-        bundle exec jekyll serve --livereload
+5. Im Browser [http://localhost:3000/](http://localhost:3000/) öffnen, um die Entwicklungs-Seite zu sehen. Seite in einem Code-Editor bearbeiten, der Browser aktualisiert die Seite automatisch. 🎉
 
-1.  Öffne [http://localhost:4000](http://localhost:4000) im Browser
 
-1.  🎉
+## Veröffentlichen 🏗
 
-## Content editieren
+Für den Produktiv-Code oder einen lokalen Test den folgenden Befehl eingeben:
 
-Fange mit dem Editieren Deines Contents an, indem du die mitgelieferten Markdown-Files umschreibst.
+    npm run build
 
-Oder probiere einfach unsere kostenlose on-page Editier-Erfahrung mit dem neuen [Stackbit Studio](https://stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) aus.
+Die exportierte Seite wird in das `out`-Verzeichnis geschrieben. Die Inhalte dieses Verzeichnisses können an eine Serverless-Distributionsplattform wie [Netlify](https://www.netlify.com) geschickt werden.
+Ein lokaler Server zur Ausgabe zur Ausgabe der statischen Dateien des `out`-Verzeichnisses im Browser kann z.B. durch Installation und Ausführung von `http-server`gestartet werden:
 
-[![](https://i3.ytimg.com/vi/zd9lGRLVDm4/hqdefault.jpg)](https://stackbit.link/project-readme-lead-video)
+    npm install http-server -g
+    http-server out
+
 
 Hier ein paar Ressourcen zum Start:
 
