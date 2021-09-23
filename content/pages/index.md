@@ -26,7 +26,7 @@ sections:
     has_border: true
     image: /images/grasshopper.png
   - type: blog_feed_section
-    title: Neueste Episodes
+    title: Neueste Episoden
     blog_feed_cols: three
     enable_cards: true
     show_recent: true
