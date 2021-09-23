@@ -1,102 +1,76 @@
-# ✨ Podcaster Nextjs Theme ✨
+# ✨ latino-landia ✨
 
-This is Stackbit's "Podcaster" theme built with [Next.js](https://nextjs.org/) and
-powered by content stored in files.
+<img src="/images/labskaus-demo-1024x568.png" width="600">
 
-Click the button below to create a new website from this theme using Stackbit:
+[Jekyll](https://jekyllrb.com)-Seite mit Git als [CMS](https://en.wikipedia.org/wiki/Content_management_system). Seiten-Editor: [Stackbit](https://www.stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes). Build-Zeit: unter einer Minute.
 
-<p align="center">
-  <a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/podcaster-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg"/></a>
-</p>
+Mit Stackbit lassen sich verschiedene [Vorlagen](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) wie diese benutzen. Wie wäre es mit einer anderen?
 
-[Live Site Demo](https://themes.stackbit.com/demos/podcaster/)
+<details>
+        <summary>🎨 &nbsp;<strong>Vorlagen</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fresh-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Persönliche Seite mit Blog</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Schickes SaaS Theme</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/starter-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Ultra anpassbarer Starter. Der Favorit bei Entwicklern.</a></li>
+                </ul>
+</details>
 
-<img src="https://themes.stackbit.com/images/podcaster-demo-1024x768.png" width="600">
+<details>
+        <summary>✏️ &nbsp;<strong>CMS-Auswahl</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?cms=contentful&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Contentful</a></li>
+                <li><a href="https://app.stackbit.com/create?cms=sanity&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Sanity</a></li>
+                <li><a href="https://app.stackbit.com/create?cms=datocms&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Dato CMS</a></li>
+                </ul>
+</details>
 
-The theme can be used to create a static website that is hosted by a serverless
-deployment platform such as [Netlify](https://www.netlify.com). The contents of
-the website are stored in git with the rest of the site's code.
+<details>
+        <summary>⚙️ &nbsp;<strong>Static-Site-Generatoren</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?ssg=gatsby&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Gatsby</a></li>
+                <li><a href="https://app.stackbit.com/create?ssg=nextjs&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Next.js</a></li>
+                <li><a href="https://app.stackbit.com/create?ssg=hugo&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Hugo</a></li>
+                </ul>
+</details>
 
-When deploying the website, [Sourcebit](https://github.com/stackbithq/sourcebit)
-reads the site's contents from files and provides it to Next.js. Once Next.js
-finishes generating the static website, [Netlify](https://www.netlify.com) pushes
-the static files to its CDN.
+## Lokal entwickeln
 
-[Sourcebit](https://github.com/stackbithq/sourcebit) and its plugins, specifically
-[`sourcebit-source-filesystem`](https://github.com/stackbithq/sourcebit-source-filesystem)
-and [`sourcebit-target-next`](https://github.com/stackbithq/sourcebit-target-next),
-are used to read the site's contents from files, normalize it, and provide it to
-Next.js pages. It also sets up live updates in development mode allowing you to
-update the content files and instantly see your updates in the browser.
+1.  Installiere eine vollständige [Ruby-Entwicklungsumgebung](https://jekyllrb.com/docs/installation/)
 
+1.  Installiere Jekyll und Bundler:
 
-## Quick Start 🏎
+        gem install jekyll bundler
 
-[Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/podcaster-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
+1.  Installiere Abhängigkeiten aus dem Gemfile:
 
-Stackbit will execute following steps for you
+        bundle install
 
-- Create a new GitHub repository with the contents of this repository.
-- Create [Netlify](https://www.netlify.com) site connected to the GitHub repo
-- Deploy the Netlify site.
-- Create a "commit" webhook in GitHub that will trigger Netlify deployment as
-  soon as new commit is pushed to GitHub.
-- Create a Stackbit project that will allow you edit your website via on-page
-  visual editing experience. 
+1.  Erzeuge Deine Seite and starte einen lokalen Jekyll-Entwicklungs-Server
 
+        bundle exec jekyll serve --livereload
 
-## Editing Content 📝
+1.  Öffne [http://localhost:4000](http://localhost:4000) im Browser
 
-Once Stackbit creates a site, you can start editing the content using the free
-on-page editing experience provided by the [Stackbit Studio](https://stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes).
+1.  🎉
+
+## Content editieren
+
+Fange mit dem Editieren Deines Contents an, indem du die mitgelieferten Markdown-Files umschreibst.
+
+Oder probiere einfach unsere kostenlose on-page Editier-Erfahrung mit dem neuen [Stackbit Studio](https://stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) aus.
 
 [![](https://i3.ytimg.com/vi/zd9lGRLVDm4/hqdefault.jpg)](https://stackbit.link/project-readme-lead-video)
 
-Here's a few resources to get you started:
+Hier ein paar Ressourcen zum Start:
 
-- 📺 &nbsp; [Editing Content](https://stackbit.link/project-readme-editing-video)
-- 📺 &nbsp; [Adding, Reordering and Deleting Items](https://stackbit.link/project-readme-adding-video)
-- 📺 &nbsp; [Collaboration](https://stackbit.link/project-readme-collaboration-video)
-- 📺 &nbsp; [Publishing](https://stackbit.link/project-readme-publishing-video)
-- 📚 &nbsp; [Stackbit Documentation](https://stackbit.link/project-readme-documentation)
+- 📺 &nbsp; [Content editieren](https://stackbit.link/project-readme-editing-video)
+- 📺 &nbsp; [Einträge hinzufügen, neu anordnen und löschen](https://stackbit.link/project-readme-adding-video)
+- 📺 &nbsp; [Zusammenarbeit](https://stackbit.link/project-readme-collaboration-video)
+- 📺 &nbsp; [Veröffentlichen](https://stackbit.link/project-readme-publishing-video)
+- 📚 &nbsp; [Stackbit Dokumentation](https://stackbit.link/project-readme-documentation)
 
-If you need a hand, make sure to check the [Stackbit support page](https://stackbit.link/project-readme-support).
+Wenn Du Hilfe benötigst, schau am besten zuerst auf unserer [Stackbit Support-Seite](https://stackbit.link/project-readme-support) nach.
 
+## Colophon
 
-## Develop Locally
-
-1. [Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/podcaster-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
-
-1. Once finished, you will be redirected to Stackbit Studio where you will be
-   able to edit the content using the free on-page editing experience, and
-   publish new versions of your site.
-
-1. To further develop your site, clone the generated repository.
-
-1. Install dependencies
-
-       npm install
-       
-1. Start the Next.js local development server:
-
-        npm run develop
-
-1. Open [http://localhost:3000/](http://localhost:3000/) in the browser to see
-   your site. You can now edit the site contents, and the browser will
-   live-update your changes. 🎉
-
-
-## Building for production 🏗
-
-To build a static site for production, or test locally how it works, run the
-following command:
-
-    npm run build
-
-The exported site will be written to `out` folder. The contents of this folder 
-can be deployed by serverless deployment platform such as [Netlify](https://www.netlify.com).
-You can start a local server serving the static files from the `out` folder, for
-example by installing and running `http-server`:
-
-    npm install http-server -g
-    http-server out
+Generated at `2021-07-22T14:12:10.735Z` by Stackbit version `0.3.53`.
